@@ -29,6 +29,7 @@ public class exactlythreedivisor {
         int n;
         System.out.println("Enter the number");
         n=sc.nextInt();
+        sc.close();
         exactlythree(n);
         
     }
