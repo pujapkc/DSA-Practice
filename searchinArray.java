@@ -4,11 +4,13 @@ public class searchinArray{
     public static void linearsearch(int arr[],int n,int element){
               for(int i=0;i<n;i++){
                 if(arr[i]==element){
-                    System.out.println("The element"+element+"is present in the array");
+                    break;
+                    
                 }
-                else{
-                    System.out.println("The element is not present in the array");
-                }
+                System.out.println("The element "+element+" is present in the array");
+                // else{
+                //     System.out.println("The element is not present in the array");
+                // }
               }
     }
      public static void main(String args[]) {
